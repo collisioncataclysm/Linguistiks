@@ -1,6 +1,6 @@
 {
-  "name": "@twilio/voice-sdk",
-  "version": "2.1.1-dev",
+  "name": "@umami-dev/voice-sdk",
+  "version": "2.1.1",
   "description": "Twilio's JavaScript Voice SDK",
   "main": "./es5/twilio.js",
   "types": "./es5/twilio.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:twilio/twilio-voice.js.git"
+    "url": "https://github.com/umami-dev/twilio-voice.js"
   },
   "scripts": {
     "build": "npm-run-all clean build:constants build:errors docs:ts build:es5 build:ts build:dist build:dist-min",
@@ -64,6 +64,9 @@
     "test:unit",
     "docs:ts"
   ],
+  "publishConfig": {
+    "@umami-dev:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@types/mocha": "5.2.7",
     "@types/node": "13.1.8",
