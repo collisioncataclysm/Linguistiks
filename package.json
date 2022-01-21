@@ -64,6 +64,9 @@
     "test:unit",
     "docs:ts"
   ],
+  "publishConfig": {
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@types/mocha": "5.2.7",
     "@types/node": "13.1.8",
