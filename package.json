@@ -126,7 +126,7 @@
     "@twilio/audioplayer": "1.0.6",
     "@twilio/voice-errors": "1.1.1",
     "backoff": "2.5.0",
-    "loglevel": "1.6.7",
+    "loglevel": "1.8.0",
     "rtcpeerconnection-shim": "1.2.8",
     "ws": "7.4.6",
     "xmlhttprequest": "1.8.0"
