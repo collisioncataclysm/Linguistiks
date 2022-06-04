@@ -127,7 +127,7 @@
     "@twilio/voice-errors": "1.1.1",
     "backoff": "2.5.0",
     "loglevel": "1.6.7",
-    "rtcpeerconnection-shim": "1.2.8",
+    "rtcpeerconnection-shim": "1.2.15",
     "ws": "7.4.6",
     "xmlhttprequest": "1.8.0"
   },
